@@ -10,6 +10,7 @@ public class MethodCollector {
         // Erste Methode
         System.out.println("Method " + methodCounter + ":" );
         aFirstMethod();
+        aLastMethod();
         methodCounter++;
 // hier kann die nächste Methode folgen.
         aHeisobtMethod();
@@ -26,4 +27,8 @@ public class MethodCollector {
     }
 
 
+}
+    private static void aLastMethod() {
+        System.out.println("MethodCollector.aFirstMethod: This method has been created by BenH@sstEMails");
+    }
 }
