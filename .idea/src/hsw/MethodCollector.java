@@ -12,11 +12,17 @@ public class MethodCollector {
         aFirstMethod();
         methodCounter++;
 // hier kann die nächste Methode folgen.
+        aHeisobtMethod();
+        methodCounter++;
     }
 
 
     private static void aFirstMethod() {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
+    }
+
+    private static void aHeisobtMethod() {
+        System.out.println("MethodCollector.aHeisobtMethod: This method has been created by heisob");
     }
 
 
