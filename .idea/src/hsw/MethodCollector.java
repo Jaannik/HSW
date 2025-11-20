@@ -12,11 +12,16 @@ public class MethodCollector {
         aFirstMethod();
         methodCounter++;
 // hier kann die nächste Methode folgen.
+        ausgabe();
     }
 
 
     private static void aFirstMethod() {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
+    }
+
+    private static void ausgabe() {
+        System.out.println("Hallo Welt!");
     }
 
 
